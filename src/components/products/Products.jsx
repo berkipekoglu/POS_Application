@@ -17,8 +17,8 @@ const Products = () => {
 
   return (
     <div className="products-wrapper grid gap-4 grid-cols-card">
-      {testProducts.map((product) => (
-        <div className="product-item border hover:shadow-lg cursor-pointer transition-all delay-50 select-none">
+      {testProducts.map((product, key) => (
+        <div key={key} className="product-item border hover:shadow-lg cursor-pointer transition-all delay-50 select-none">
           <div className="product-img">
             <img
               src={product.image}

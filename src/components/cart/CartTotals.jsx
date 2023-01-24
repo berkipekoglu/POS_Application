@@ -4,7 +4,7 @@ import {
   MinusCircleOutlined,
   PlusCircleOutlined,
 } from "@ant-design/icons";
-import Seftali from "../../assets/images/seftali.jpg";
+//import Seftali from "../../assets/images/seftali.jpg";
 import Karpuz from "../../assets/images/karpuz.jpg";
 
 const CartTotals = () => {
